@@ -8,11 +8,7 @@ describe('Página de cadastro', () => {
 
   usuarios.forEach(usuario => {
     it('Deve preencher os campos e cadastra-los corretamente', () => {
-        cy.get('[data-test="input-name"]').clear().type(usuario.name);
-        cy.get('[data-test="input-email"]').clear().type(usuario.email);
-        cy.get('[data-test="input-password"]').clear().type(usuario.password);
-        cy.get('[data-test="input-confirm-password"]').clear().type(usuario.password);
-        cy.get('[data-test="submit-button"]').click();
+        cy.cadastrar(usuario.name, usuario.email, usuario.password);
     })
   })
 
