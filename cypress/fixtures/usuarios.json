@@ -1,0 +1,29 @@
+{
+  "usuarios": [
+    {
+      "name": "Peter Parker",
+      "email": "peter.parker@alura.com",
+      "password": "SenhaSpidey01"
+    },
+    {
+      "name": "Stephen Strange",
+      "email": "stephen.strange@alura.com",
+      "password": "SenhaMagic02"
+    },
+    {
+      "name": "Carol Danvers",
+      "email": "carol.danvers@alura.com",
+      "password": "SenhaMarvel03"
+    },
+    {
+      "name": "Scott Lang",
+      "email": "scott.lang@alura.com",
+      "password": "SenhaAnt04"
+    },
+    {
+      "name": "Hope Van Dyne",
+      "email": "hope.vandyne@alura.com",
+      "password": "SenhaWasp05"
+    }
+  ]
+}
