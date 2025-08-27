@@ -5,7 +5,8 @@ describe('Página de cadastro', () => {
   })
   
   it('Deve preencher os campos do formulário corretamente para cadastrar um novo usuário.', () => {
-    cy.cadastrar('Deodoro Silva', 'deodorosilva@email.com', 'Senha123');
-    
+    let uuid = self.crypto.randomUUID();
+    cy.cadastrar('teste cadastro', `${uuid}@email.com`, 'Senha123');
+    cy.url().should('eq', 'https://adopet-frontend-cypress.vercel.app/login');
   })
 })
