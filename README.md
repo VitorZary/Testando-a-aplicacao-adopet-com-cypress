@@ -16,7 +16,7 @@ Git instalado na máquina, pode ser obtido em: https://git-scm.com/downloads
 
 **Passo a passo:**
 
-Passo 1: navegando pelo terminal digite o comando na pasta escolhida: git clone `https://github.com/VitorZary/Testando-a-aplicacao-adopet-com-cypress.git`;
+Passo 1: navegando pelo terminal digite o comando na pasta escolhida: `git clone https://github.com/VitorZary/Testando-a-aplicacao-adopet-com-cypress.git`;
 
 Passo 2: com o terminal dentro da pasta raiz do projeto digite: `npm install` para instalar as dependências;
 
